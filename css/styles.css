@@ -2,7 +2,6 @@
     text-align:center;
     background-color:green;
     color:white;
-    padding-top:20px;
     font-style:bold;
     font-family:fantasy;
 }
@@ -26,4 +25,14 @@ body{
 p{
     text-align:center;
 }
+
+jumbotron.h1{
+    margin-top:500px;
+}
+
+span.glyphicon{
+    font-size:4.5em;
+    color: #3b4b1c;
+    text-align:center;
+    display:block;
 }
