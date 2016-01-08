@@ -5,8 +5,37 @@
         <title>Portfolio Landing Page</title>
         <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="css/styles.css" type="text/css" media="all"/>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
      </head>
      <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand text-muted" href="index.html">Portfolio</a>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                  <a data-toggle="dropdown" data-target="#">Projects<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://github.com/michaeldada/trip">Vacation to Thailand</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://github.com/michaeldada/cupcake">Cupcakes of Victory</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://github.com/michaeldada/island">Island Resort</a></li>
+
+                    </ul>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
          <div class="jumbotron">
            <h1>Michael Dada</h1>
            <h2>Aspiring Web Developer</h2>
@@ -15,14 +44,6 @@
            <img src="img/me.jpg" id="me" class="img-circle">
            <p><strong>Hey there!</strong> My name is Michael and this is the landing page for my portfolio</p>
            <p><em>Here are some of the projects I've been working on:</em></p>
-           <ul>
-             <li><a href ="https://github.com/michaeldada/trip">Vacation to Thailand</a></li>
-             <p>A travel site showing off some of what Thailand has to offer.  Built with HTML, CSS, and Bootstrap</p>
-             <li><a href="https://github.com/michaeldada/cupcake">Cupcakes of Victory</a></li>
-             <p>A business site for a local cupcake shop with menu listings and contact info.  Built with HTML and CSS</p>
-             <li><a href="https://github.com/michaeldada/islandresort">Island Resort</a></li>
-             <p>A site for an anonymous island resort somewhere in the carribean.  Built with HTML and CSS.</p>
-           </ul>
            <p>I am originally from the <span class="city">San Francisco Bay Area</span>, but am currently living in <span class="city">Portland, OR</span>.  Here are some of the things that I love to do:</p>
            <ol>
              <li>Listen to music</li>
